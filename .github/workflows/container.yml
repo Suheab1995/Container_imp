@@ -3,8 +3,8 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    runs-on: windows
-    container: ubuntu-latest
+    runs-on: windows-latest
+    container: ubuntu:latest
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
