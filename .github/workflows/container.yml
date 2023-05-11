@@ -17,4 +17,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           ls -la
-          rm -rf mkdir new_dir
+          rm -rf  new_dir
