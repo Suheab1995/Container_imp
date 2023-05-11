@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: windows-2019
     container: ubuntu:latest
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
